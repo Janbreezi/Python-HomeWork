@@ -1,10 +1,17 @@
 # HW2.py
-# Author:
+# Author: AlejandroCanas
 
 
 # Question 1:
 # Write some code that prompts the user for their age. Depending on the input:
+askage = input("Hello user how old are you: ")
 
+if int (askage) <= 12:
+    print("You are a child")
+elif int (askage) >= 13 and int (askage) <= 19:
+    print("You are a teenager")
+else:
+    print("You are an adult")
 # If the age is less than 13, print "You are a child."
 # If the age is between 13 and 19, print "You are a teenager."
 # If the age is 20 or older, print "You are an adult."
@@ -17,7 +24,8 @@
 # 123
 # 1234
 # 12345
-
+i = 1
+  
 # Question 3:
 # Write a Python program that prompts the user to input 10 numbers. After all the numbers are inputted, the program should display:
 
