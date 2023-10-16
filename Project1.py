@@ -1,5 +1,5 @@
 # Project1.py
-# Author:
+# Author: Alejandro Canas
 
 
 # This project is meant to test your ability from everything we have learned so far in class
